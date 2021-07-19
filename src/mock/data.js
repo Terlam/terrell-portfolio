@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'headshot.jpeg',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
@@ -28,7 +28,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'weather.png',
     title: '',
     info: '',
     info2: '',
