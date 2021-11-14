@@ -3,7 +3,7 @@ import { nanoid } from 'nanoid';
 // HEAD DATA
 export const headData = {
   title: '', // e.g: 'Name | Developer'
-  lang: 'en,es,fr', // e.g: en, es, fr, jp
+  lang: 'en', // e.g: en, es, fr, jp
   description: 'Software engineering portfolio for Terrell McKinney', // e.g: Welcome to my website
 };
 
@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Terrell',
-  subtitle: "I'm Software Engineer and Teacher",
+  subtitle: "I'm a Software Engineer and Teacher",
   cta: 'Hire Me',
 };
 
@@ -35,7 +35,7 @@ export const projectsData = [
     title: 'Ash-Korleshionz',
     info: 'An e-commerce project built with Flask.',
     info2:
-      "I'm buildin an ecommerce site for a friend in Accra. We're using a Postgres Database, Heroku, and cloudinary's API for the photos. ",
+      "I'm building an ecommerce site for a friend in Accra. We're using a Postgres Database, Heroku, and cloudinary's API for the photos. ",
     url: 'https://ash-korleshionz.herokuapp.com/',
     repo: 'https://github.com/Terlam/ash_korleshionz', // if no repo, the button will not show up
   },
@@ -58,6 +58,15 @@ export const projectsData = [
       "Here's a weather app hosted on github pages that uses Openweather's API and Unsplash to render pictures tagged from those locations.",
     url: 'https://terlam.github.io/weather_app/',
     repo: 'https://github.com/Terlam/weather_app', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'drone.png',
+    title: 'Drone Inventory App',
+    info: 'React/Firebase Frontend Flask/Heroku backend',
+    info2: 'A drone inventory app used to catalogue flying robots.',
+    url: 'https://drones-69-tm.firebaseapp.com/',
+    repo: 'https://github.com/Terlam/drone-inventory', // if no repo, the button will not show up
   },
 ];
 
